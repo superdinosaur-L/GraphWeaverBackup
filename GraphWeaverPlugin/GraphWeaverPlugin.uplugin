@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 103,
+	"VersionName": "1.0.3",
+	"FriendlyName": "Graph Weaver Plugin",
+	"Description": "Easily build graphs of any shape you want",
+	"Category": "Programming",
+	"CreatedBy": "RainButterfly",
+	"CreatedByURL": "https://github.com/superdinosaur-L",
+	"DocsURL": "https://github.com/superdinosaur-L/GraphWeaverPlugin/wiki",
+	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/958a763a-1323-4581-8a35-1af78fd56bfe",
+	"SupportURL": "https://github.com/superdinosaur-L",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "GraphWeaverPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "UK2NodeTools",
+			"Type": "Developer",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
